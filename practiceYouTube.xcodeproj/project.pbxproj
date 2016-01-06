@@ -14,6 +14,7 @@
 		32F89B3D1C3D3B4100024112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F89B3B1C3D3B4100024112 /* LaunchScreen.storyboard */; };
 		32F89B481C3D3B4100024112 /* practiceYouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F89B471C3D3B4100024112 /* practiceYouTubeTests.swift */; };
 		32F89B531C3D3B4100024112 /* practiceYouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F89B521C3D3B4100024112 /* practiceYouTubeUITests.swift */; };
+		32F89B621C3D3D6D00024112 /* player.html in Resources */ = {isa = PBXBuildFile; fileRef = 32F89B611C3D3D6D00024112 /* player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		32F89B4E1C3D3B4100024112 /* practiceYouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceYouTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F89B521C3D3B4100024112 /* practiceYouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceYouTubeUITests.swift; sourceTree = "<group>"; };
 		32F89B541C3D3B4100024112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F89B611C3D3D6D00024112 /* player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = player.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		32F89B311C3D3B4100024112 /* practiceYouTube */ = {
 			isa = PBXGroup;
 			children = (
+				32F89B601C3D3D6D00024112 /* Assets */,
 				32F89B321C3D3B4100024112 /* AppDelegate.swift */,
 				32F89B341C3D3B4100024112 /* ViewController.swift */,
 				32F89B361C3D3B4100024112 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				32F89B541C3D3B4100024112 /* Info.plist */,
 			);
 			path = practiceYouTubeUITests;
+			sourceTree = "<group>";
+		};
+		32F89B601C3D3D6D00024112 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				32F89B611C3D3D6D00024112 /* player.html */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				32F89B3D1C3D3B4100024112 /* LaunchScreen.storyboard in Resources */,
 				32F89B3A1C3D3B4100024112 /* Assets.xcassets in Resources */,
 				32F89B381C3D3B4100024112 /* Main.storyboard in Resources */,
+				32F89B621C3D3D6D00024112 /* player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				32F89B591C3D3B4100024112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F89B5A1C3D3B4100024112 /* Build configuration list for PBXNativeTarget "practiceYouTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				32F89B5C1C3D3B4100024112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F89B5D1C3D3B4100024112 /* Build configuration list for PBXNativeTarget "practiceYouTubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				32F89B5F1C3D3B4100024112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
